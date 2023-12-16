@@ -32,7 +32,7 @@ public class LoginStepDefinition {
         String ActualTitle=driver.getTitle();
         String ExpectedTitle="Amazon.ca: Low Prices – Fast Shipping – Millions of Items";
         Assert.assertEquals(ExpectedTitle,ActualTitle);
-        System.out.println("Title is True");
+        System.out.println("Amazon Title is True");
 
     }
     @Then("user click on signin button")
